@@ -1,4 +1,4 @@
-package org.clinic.sanitary.domain;
+package org.clinic.sanitary.domain.entity;
 
 import lombok.Getter;
 
@@ -26,4 +26,6 @@ public enum TypeService {
         }
         throw new IllegalArgumentException("Invalid TypeService code: " + code);
     }
+
+    //TODO: Agregar un decorator en los dtos para validar que el tipo esté relacionado con su subtipo
 }

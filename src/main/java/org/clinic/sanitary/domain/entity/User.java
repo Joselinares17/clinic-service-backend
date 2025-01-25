@@ -1,4 +1,4 @@
-package org.clinic.sanitary.domain;
+package org.clinic.sanitary.domain.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
